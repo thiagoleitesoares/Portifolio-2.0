@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Vujahday Script', cursive;
+}
+html{
+    background-color: rgb(57, 57, 57);
+}
+.cabecalho{
+    background-color: black;
+    width: 100%;
+}
+.lista-cabecalho{
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    list-style-type: none;
+    text-align: center;
+}
+li:hover{
+ border-left: solid 6px green;
+ padding-left: 2px;
+}
+a{
+    text-decoration: none;
+}
